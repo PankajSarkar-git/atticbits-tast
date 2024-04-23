@@ -35,10 +35,10 @@ const Calendar = () => {
               <p>9am</p>
               <p>10am</p>
               <p>11am</p>
-              <p>12am</p>
-              <p>1am</p>
-              <p>2am</p>
-              <p>3am</p>
+              <p>12pm</p>
+              <p>1pm</p>
+              <p>2pm</p>
+              <p>3pm</p>
             </div>
             <div className="calendar-event">
               <div className="event"></div>
@@ -51,27 +51,27 @@ const Calendar = () => {
               <div className="event"></div>
               <div className="event"></div>
               <div className="event event-active">
-                Lora montes
-                <p>8am-9am</p>
+                Lakas Tapai
+                <p>9am-10am</p>
               </div>
               <div className="event"></div>
               <div className="event"></div>
               <div className="event"></div>
               <div className="event event-active">
                 Lora montes
-                <p>8am-9am</p>
+                <p>10am-11am</p>
               </div>
               <div className="event"></div>
               <div className="event"></div>
               <div className="event"></div>
               <div className="event event-active">
                 Lora montes
-                <p>8am-9am</p>
+                <p>10am-11am</p>
               </div>
               <div className="event"></div>
               <div className="event event-active">
                 Lora montes
-                <p>8am-9am</p>
+                <p>11am-12pm</p>
               </div>
               <div className="event"></div>
               <div className="event"></div>
@@ -80,12 +80,16 @@ const Calendar = () => {
               <div className="event"></div>
               <div className="event event-active">
                 Lora montes
-                <p>8am-9am</p>
+                <p>12pm-1pm</p>
               </div>
               <div className="event"></div>
               <div className="event event-active">
                 Lora montes
-                <p>8am-9am</p>
+                <p>12pm-1pm</p>
+              </div>
+              <div className="event event-active">
+                Lora montes
+                <p>1pm-2pm</p>
               </div>
               <div className="event"></div>
               <div className="event"></div>
@@ -94,8 +98,10 @@ const Calendar = () => {
               <div className="event"></div>
               <div className="event"></div>
               <div className="event"></div>
-              <div className="event"></div>
-              <div className="event"></div>
+              <div className="event event-active">
+                Lora montes
+                <p>2pm-3pm</p>
+              </div>
               <div className="event"></div>
             </div>
           </div>
