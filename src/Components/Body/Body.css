@@ -1,0 +1,21 @@
+.body{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+}
+
+.outlet{
+    overflow-y: scroll;
+    width: 100%;
+}
+.outlet::-webkit-scrollbar{
+    scroll-behavior: smooth;
+    display: none;
+}
+
+
+@media (max-width: 840px) {
+    .body{
+        position: relative;
+    }
+}

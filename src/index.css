@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --main-bg-color: black;
+    --main-color: yellow;
+    --white-color: white;
+    --blue-color: rgb(64, 64, 165);
+    --light-black : rgb(47, 46, 46);
+} 

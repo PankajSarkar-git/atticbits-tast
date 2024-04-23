@@ -1,0 +1,59 @@
+.client {
+    padding: 10px;
+    color: var(--white-color);
+    width: 100%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.client:hover {
+    background-color: var(--light-black);
+
+
+}
+
+.user-client {
+    margin-right: 10px;
+    gap: 2rem;
+}
+
+.clieni-item {
+    display: flex;
+    gap: 1.3rem;
+}
+
+.client .clieni-item .avatar {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.client-name {
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 0.9rem;
+
+}
+
+.client-timestamp {
+    font-size: 12px;
+    color: #aaa;
+    margin-left: 5px;
+}
+
+.client-content {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+
+}
+
+@media (max-width : 1111px) {
+    .clieni-item {
+        display: flex;
+        gap: 0.5rem;
+    }
+}

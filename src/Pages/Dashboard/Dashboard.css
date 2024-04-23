@@ -1,0 +1,106 @@
+.dashboard {
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.income-container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.income-container h1 {
+    font-size: 2rem;
+}
+
+.select-container {
+    display: flex;
+    gap: 2rem;
+}
+
+#Week-select,
+#prev-week-select {
+    width: inherit;
+    font-size: 0.9rem;
+    background-color: var(--main-bg-color);
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+}
+
+
+.schedule-container {
+    margin-top: 5rem;
+}
+
+.scedule-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scedule-header h2 {
+    font-size: 1.7rem;
+    color: var(--white-color);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+
+.clients-info {
+    width: 30%;
+}
+
+
+@media (max-width : 1177px) {
+    .clients-info {
+        width: 35%;
+    }
+
+}
+
+@media (max-width : 1177px) {
+
+    .income-container h1 {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media (max-width : 1080px) {
+    .dashboard {
+        display: block;
+    }
+
+    .clients-info {
+        width: 100%;
+    }
+
+}
+
+@media (max-width : 560px) {
+    .dashboard {
+        padding: 0.3rem;
+    }
+
+    .select-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+
+
+}
